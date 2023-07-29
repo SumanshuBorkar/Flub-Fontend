@@ -1,0 +1,152 @@
+.contain-the-form{
+    height: 100vh;
+    padding-top: 20vh ;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(21, 21, 21), rgb(42, 41, 41), rgb(67, 67, 67), rgb(94, 94, 94));
+    background-size: 400% 400%;
+	  animation: backsttab 8s ease infinite;
+}
+
+@keyframes backsttab {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#Form-to-submit{
+    width: 20vw;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: rgba(255, 255, 255, 0.503) 0px 14px 28px, rgba(246, 246, 246, 0.426) 0px 10px 10px;
+    background: linear-gradient(-45deg, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    background-size: 400% 400%;
+	  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+button{
+   left: 25%;
+   width: 95%;
+   height: auto;
+}
+
+#location{
+  width: 100%;
+  height: 30px
+}
+
+#description{
+  width: 100%;
+  height: 50px;
+}
+
+.button-50 {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+@media (max-width: 414px) {
+  /* Styles for iPhone XR or devices with smaller screens */
+  .contain-the-form{
+    background-color: #000;
+    height: 100vh;
+    padding-top: 10vh ;
+    width: 100vw;
+}
+#Form-to-submit{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: rgba(255, 255, 255, 0.503) 0px 14px 28px, rgba(246, 246, 246, 0.426) 0px 10px 10px;
+    background: linear-gradient(-45deg, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    background-size: 400% 400%;
+	  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+}

@@ -1,0 +1,10 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  max-width: 100%; 
+  overflow-x: hidden;
+  width: 100vw;
+  height: auto;
+}
+

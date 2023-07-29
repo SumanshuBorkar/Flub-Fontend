@@ -1,0 +1,161 @@
+.post-card{
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.46) 0px 16px 30px, rgba(0, 0, 0, 0.38) 0px 12px 12px;
+}
+
+.card-header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-header {
+    width: 50%;
+    margin-left: 2%;
+  }
+   
+  .name-acc {
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+  }
+  
+  .location-acc {
+    font-size: 0.9em;
+    color: #999;
+  }
+   
+  .right-header{
+    cursor: pointer;
+    color: #0a0a0a;
+    position: absolute;
+    right: 0px;
+    align-self: center;
+    margin-right: 5%;
+  }
+
+  .img-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -100;
+    background: linear-gradient(-45deg, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+	  background-size: 400% 400%;
+	  animation: gradient 4s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  .post-image{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+    overflow: hidden;
+  }
+
+  .likes-lis{
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-weight: 600;
+  }
+
+.profile-photo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:3px solid greenyellow ;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.post-info{
+    padding: 1vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+  }
+
+.like-send-comment{
+  width: 95%;
+  display: flex;
+  position: absolute;
+  top: 10px;
+}
+
+.date-of-post{
+  position: absolute;
+  right: 10px;
+}
+
+.comment-likkes{
+  margin-top: 50px;
+  padding: 1vh;
+  color: #3e3535;
+}
+
+.heart-like{
+  width: 30px;
+  height: 30px;
+}
+
+
+@media (max-width: 414px) {
+  /* Styles for iPhone XR or devices with smaller screens */
+  .post-card{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .card-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 7vh;
+  }
+  .img-container{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to left bottom, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    position: relative;
+    z-index: -100;
+  }
+
+  .post-image{
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit:scale-down;
+    overflow: hidden;
+  }
+
+  .profile-photo{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+
+}
