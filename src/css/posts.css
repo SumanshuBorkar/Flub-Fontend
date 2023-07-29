@@ -1,0 +1,149 @@
+#box{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  height: 8vh;
+  margin-top: -8vh; /* Move the navbar off-screen initially */
+  background-image: linear-gradient(to right, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+  box-shadow: rgba(0, 0, 0, 0.40) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  animation-name: dropdown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; /* Maintain the final state of the animation */
+  z-index: 100;
+}
+
+@keyframes dropdown {
+  0% {
+    margin-top: -8vh; /* Start off-screen at the top */
+    opacity: 0; /* Initially hidden */
+  }
+  100% {
+    margin-top: 5px; /* Rest at the current position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+
+.logo-ka-logo{
+  position: absolute;
+  left: 10%;
+  width: auto;
+  height: 100%;
+}
+
+.iconsofuses{
+  position: absolute;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  height: 100%;
+}
+
+.camera{
+  width: 30px;
+  height: 30px;    
+}
+
+.Louse{
+  display: none;
+}
+
+.container-ka-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 90;
+  width: 60vw;
+  height: auto;
+  left: 20%;
+  top: 100%; /* Set initial position at the bottom */
+  animation-name: riseAndShow;
+  animation-duration: 1s;
+  animation-fill-mode: forwards; /* Maintain the final state of the animation */
+}
+
+@keyframes riseAndShow {
+  0% {
+    top: 100%; /* Start at the bottom */
+    opacity: 0; /* Initially hidden */
+  }
+  100% {
+    top: 15%; /* Rest at the original position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+@media (max-width: 414px) {
+  /* Styles for iPhone XR or devices with smaller screens */
+   
+  #box{
+    position: relative;
+  }
+
+  .logo-ka-logo {
+    /* Adjust positioning or other styles as needed */
+    position: absolute;
+    left: 35%;
+    width: auto;
+    height: 100%;
+  }
+
+.navbar{
+  position: absolute;
+}
+
+  .iconsofuses{
+    display: none;
+  }
+  
+  .container-ka-container {
+    /* Adjust positioning or other styles as needed */
+    width: 95vw;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+    height: auto; 
+    left: 2%;
+  }
+
+  .bottomNavigation{
+    position: fixed;
+    height: 7vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    bottom: 0px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .Louse{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.chatlisrelem{
+    width: 95%;
+    height: 8vh;
+    margin-bottom: 20px;
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    font-weight: 550;
+    box-shadow: rgba(0, 0, 0, 0.223) 0px 15px 25px, rgba(0, 0, 0, 0.26) 0px 5px 10px;
+    background: linear-gradient(-45deg, rgb(81, 91, 212), rgb(129, 52, 175), rgb(221, 42, 123), rgb(254, 218, 119), rgb(245, 133, 41));
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+.profile-of-chatlist-user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}

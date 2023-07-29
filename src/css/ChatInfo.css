@@ -1,0 +1,165 @@
+.create-new-group-form6543{
+  width: 30vw;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  position: relative;
+  gap: 10px;
+  box-shadow: rgba(0, 0, 0, 0.399) 0px 15px 25px, rgba(0, 0, 0, 0.465) 0px 5px 10px;
+}
+
+.inputofgrp{
+    width: 80%;
+    height: 30px;
+}
+
+.createGroupButton {
+    width: 80%;
+    appearance: button;
+    background-color: #1d1c1c;
+    background-image: none;
+    border: 1px solid #454141;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .createGroupButton:focus {
+    text-decoration: none;
+  }
+  
+  .createGroupButton:hover {
+    text-decoration: none;
+  }
+  
+  .createGroupButton:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .createGroupButton:not([disabled]):active {
+    box-shadow: #ffffff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .createGroupButton {
+      padding: 12px 50px;
+    }
+  }
+
+.userBadgeItems{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.containerforserachresults {
+    position: absolute;
+    height: auto;
+    overflow-y: scroll;
+    top: 0px;
+  }
+  
+  /* Hide the scrollbar for WebKit browsers */
+  .containerforserachresults::-webkit-scrollbar {
+    width: 1.5em; /* Set the width of the scrollbar */
+  }
+  
+  .containerforserachresults::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the color of the scrollbar thumb */
+  }
+  
+  .containerforserachresults::-webkit-scrollbar-thumb:hover {
+    background-color: #80f906; /* Set the color of the scrollbar thumb on hover */
+  }
+  
+
+
+
+.canclebuttonofthecancle {
+    margin-bottom: 10px;
+    appearance: button;
+    background-color: rgb(255, 0, 0);
+    background-image: none;
+    border: 1px solid #454141;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+  
+  .canclebuttonofthecancle:focus {
+    text-decoration: none;
+  }
+  
+  .canclebuttonofthecancle:hover {
+    text-decoration: none;
+  }
+  
+  .canclebuttonofthecancle:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .canclebuttonofthecancle:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .canclebuttonofthecancle {
+      padding: 12px 50px;
+    }
+  }
+
+  @media (max-width: 414px){
+    .create-new-group-form6543{
+      width: 70vw;
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      background-color: rgb(255, 255, 255);
+      margin-left: 20%;
+    }
+  }
